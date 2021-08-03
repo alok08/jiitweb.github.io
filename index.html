@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alumni Registration | Jaypee Institute Of Information Technology</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="firstheader">
+        <img class="img" src="images/logo.png" alt="">
+        <span style="font-weight: bold; font-size: 3.2rem; position: absolute; margin-left: 500px; margin-top: 40px;">
+            Alumni Association | 
+        </span>
+        <span style="font-weight: bold; font-size: 3.2rem; float: right; margin-right: 675px; margin-top: 43px;">JIIT Noida</span>
+        <div class="containers">
+             <span id="time"></span>
+        </div>
+    </div>
+
+    <div class="header">
+        <h1 class="alumni">
+            Application Form For Alumni
+        </h1>
+        <header>
+        <div class="container">
+            <form action="">
+                <div class="row">
+                    <div class="left">
+                        <label for="firstname">
+                            <div class="required">First Name</div>
+                        </label>
+                    </div>
+                    <div class="right">
+                        <input type="text" placeholder="First Name" maxlength="10">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="left">
+                        <label for="Middlename">Middle Name</label>
+                    </div>
+                    <div class="right">
+                        <input type="text" placeholder="Middle Name" maxlength="10">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="left">
+                        <label for="lastname">
+                            <div class="required">Last Name</div>
+                        </label>
+                    </div>
+                    <div class="right">
+                        <input type="text" placeholder="Last Name" maxlength="10">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="left">
+                        <label for="gender">
+                            <div class="required">Gender</div>
+                        </label>
+                    </div>
+                    <div class="right">
+                        <select name="gender" id="gender">
+                            <option value="M">Male</option>
+                            <option value="F">Female</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="left">
+                        <label for="maritalstatus">
+                            <div class="required">Marital Status</div>
+                        </label>
+                    </div>
+                    <div class="right">
+                        <select name="mstatus" id="mstatus">
+                            <option value="single">Single</option>
+                            <option value="married">Married</option>
+                            <option value="livein">Live-In relationship</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="left">
+                        <label for="mobilenumber">
+                            <div class="required">Mobile Number</div>
+                        </label>
+                    </div>
+                    <div class="right">
+                        <input type="number" placeholder="Mobile Number" maxlength="10">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="left">
+                        <label for="stdcode">STD code</label>
+                    </div>
+                    <div class="right">
+                        <input type="text" placeholder="Your STD Code" maxlength="10">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="left">
+                        <label for="email">
+                            <div class="required">Your eMail</div>
+                        </label>
+                    </div>
+                    <div class="right">
+                        <input type="text" placeholder="Email-id" maxlength="50">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="left">
+                        <label for="currentaddress">
+                            <div class="required">Current Address</div>
+                        </label>
+                    </div>
+                    <div class="right">
+                        <input type="text" placeholder="Current Address" maxlength="50">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="left">
+                        <label for="Permanentaddress">Permanent Address</label>
+                    </div>
+                    <div class="right">
+                        <input type="text" placeholder="Permanent Address" maxlength="50">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="left">
+                        <label for="enroll">
+                            <div class="required">Enrollment Number</div>
+                        </label>
+                    </div>
+                    <div class="right">
+                        <input type="number" placeholder="Enrollment Number" maxlength="10">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="left">
+                        <label for="dob">
+                            <div class="required">Date Of Birth</div>
+                        </label>
+                    </div>
+                    <div class="right">
+                        <input type="number" placeholder="DD-MM-YYYY" maxlength="10">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="left">
+                        <label for="program">
+                            <div class="required">Program</div>
+                        </label>
+                    </div>
+                    <div class="right">
+                        <input type="text" placeholder="Program" maxlength="10">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="left">
+                        <label for="branch">
+                            <div class="required">Branch</div>
+                        </label>
+                    </div>
+                    <div class="right">
+                        <input type="text" placeholder="Branch" maxlength="10">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="left">
+                        <label for="yoa">
+                            <div class="required">Year Of Admission</div>
+                        </label>
+                    </div>
+                    <div class="right">
+                        <input type="number" placeholder="Academic Year" maxlength="4">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="left">
+                        <label for="yog">
+                            <div class="required">Year Of Graduation</div>
+                        </label>
+                    </div>
+                    <div class="right">
+                        <input type="number" placeholder="Graduation Year" maxlength="4">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="left">
+                        <label for="higherstudies">Higher Studies(Optional)</label>
+                    </div>
+                    <div class="right">
+                        <table cellspacing="1" cellpadding="3" border="3" bordercolor="3399CC">
+                            <tbody>
+                                <tr>
+                                    <th>
+                                        Degree
+                                    </th>
+                                    <th>
+                                        Status
+                                    </th>
+                                    <th>
+                                        Uiversity / <br>Institute
+                                    </th>
+                                    <th>
+                                        Duration
+                                    </th>
+                                    <th>
+                                        Year of Completion
+                                    </th>
+                                </tr>
+                            </tbody>
+
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <select name="degree" id="degree">
+                                            <option value="">
+                                                <--SELECT-->
+                                            </option>
+                                            <option value="MBA">MBA</option>
+                                            <option value="PHD">PHD</option>
+                                            <option value="MS">MS</option>
+                                            <option value="MCA">MCA</option>
+                                            <option value="M.TECH">M.TECH</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select name="status" id="status">
+                                            <option value="">
+                                                <--SELECT-->
+                                            </option>
+                                            <option value="persuing">Persuing</option>
+                                            <option value="compeleted">Completed</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <input type="text" placeholder="University" maxlength="50">
+                                    </td>
+                                    <td>
+                                        <input type="text" placeholder="Duration" maxlength="50">
+                                    </td>
+                                    <td>
+                                        <input type="text" placeholder="Year" maxlength="50">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="left">
+                        <label for="competetive">Competetive Exam Cleared(Optional)</label>
+                    </div>
+                    <div class="right">
+                        <table cellspacing="1" cellpadding="3" border="3" bordercolor="3399CC">
+                            <tbody>
+                                <tr>
+                                    <th>
+                                        Exam Cleared
+                                    </th>
+                                    <th>
+                                        Year Of Passing
+                                    </th>
+                                    <th>
+                                        Rank Obtained
+                                    </th>
+                                </tr>
+                            </tbody>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <select name="exam" id="exam">
+                                            <option value="">
+                                                <--SELECT-->
+                                            </option>
+                                            <option value="SET">SET/SLET</option>
+                                            <option value="GATE">GATE</option>
+                                            <option value="CAT">CAT</option>
+                                            <option value="IAS">IAS</option>
+                                            <option value="IPS">IPS</option>
+                                            <option value="IFS">IFS</option>
+                                            <option value="UPSC">UPSC</option>
+                                            <option value="NET">NET</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <input type="number" placeholder="Year">
+                                    </td>
+                                    <td>
+                                        <input type="number" placeholder="Rank">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="left">
+                        <label for="presentlyworkingwith">
+                            <div class="required">Presently Working With</div>
+                        </label>
+                    </div>
+                    <div class="right">
+                        <input type="text" placeholder="Working" maxlength="50">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="left">
+                        <label for="designation">
+                            <div class="required">Designation/Position</div>
+                        </label>
+                    </div>
+                    <div class="right">
+                        <input type="text" placeholder="Designation" maxlength="50">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="left">
+                        <label for="previous">Previous Employement(Optional)</label>
+                    </div>
+                    <div class="right">
+                        <table cellspacing="1" cellpadding="3" border="3" bordercolor="3399CC">
+                            <tbody>
+                                <tr>
+                                    <th>
+                                        Employer
+                                    </th>
+                                    <th>
+                                        Designation
+                                    </th>
+                                    <th>
+                                        Year Of Joining
+                                    </th>
+                                </tr>
+                            </tbody>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <input type="text" placeholder="Employer" maxlength="50">
+                                    </td>
+                                    <td>
+                                        <input type="text" placeholder="Designation" maxlength="50">
+                                    </td>
+                                    <td>
+                                        <input type="number" placeholder="Previousjob Year">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="left">
+                        <label for="information">Any Other Information(Optional)</label>
+                    </div>
+                    <div class="right">
+                        <textarea name="familydescription" placeholder="Family Description" id="" cols="35"
+                            rows="3"></textarea>
+                    </div>
+                </div>
+                <div class="signup">
+                    <input type="submit" value="Sign up">
+                </div>
+
+            </form>
+        </div></header>
+
+    </div>
+
+    <footer>
+        <div class="foot">
+            Copyright @ <i class="fa fa-copyright" aria-hidden="true"></i>Akshay, Alok, Siddarth and Vatsal
+        </div>
+    </footer>
+
+
+
+
+    <script>
+        // console.log("this is date and time tutorial");
+        // let now = new Date();
+        // console.log(now);
+
+        // let dt = new Date(0);
+        // console.log(dt);
+
+        // let newdate = new Date("2028-04-16");
+        // console.log(newdate);
+
+        let newdate = new Date(3020, 4, 04, 11, 45, 28, 365);
+        console.log(newdate);
+
+        let yr = newdate.getFullYear();
+        console.log(yr);
+        
+        let month = newdate.getMonth();
+        console.log(month);
+        let dt = newdate.getDate();
+        console.log(dt);
+        let hr = newdate.getHours();
+        console.log(hr);
+        let min = newdate.getMinutes();
+        console.log(min);
+        let sec = newdate.getSeconds();
+        console.log(sec);
+        let msec = newdate.getMilliseconds();
+        console.log(msec);
+
+        let daiy = newdate.getDay();
+        console.log(daiy);
+
+        newdate.setDate(15);
+        newdate.setMonth(11);
+        console.log(newdate);
+        setInterval(updateTime, 1000);
+
+        function updateTime()
+        {
+            time.innerHTML = new Date();
+        }
+
+        console.log(Date.now());
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+.required::after{
+    content: "*";
+    color: red;
+}
+.left{
+    font-weight: bold;
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+.right{
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+/* .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  } */
+  .signup{
+      text-align: center;
+  }
+  .container{
+      width: 68%;
+      height: 57%;
+      border: 5px solid #3399CC;
+      padding: 8px;
+      margin: 143px;
+  }
+  .alumni{
+      text-align: center;
+      position: relative;
+      width: 80%;
+      text-decoration: underline;
+      color: blue;
+      margin-top: 165px;
+      margin-bottom: -90px;
+  }
+  .alumni:hover{
+      color: black;
+      /* border: 2px solid red; */
+      /* border-radius: 8px;
+      background-color: antiquewhite; */
+  }
+  footer{
+      background-color: black;
+      color: beige;
+      text-align: center;
+      /* margin: 9px 20px; */
+      padding: 9px 20px;
+      font-size: 1.2rem;
+  }
+  .firstheader{
+      height: 150px;
+      border: 2px solid red;
+      background-color: antiquewhite;
+      position: relative;
+      margin: -8px -7px;
+      padding: 5px;
+  }
+  .img{
+      height: 100px;
+      /* margin: -110px 194px; */
+      position: absolute;
+      margin-left: 300px;
+      margin-top: 25px;
+      
+  }
+  .header{
+      position: relative;
+      margin: -88px 150px;
+  }
+  .containers{
+      float: right;
+      margin: 63px -842px;
+  }
+  
+  
+  
